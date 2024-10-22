@@ -1,0 +1,27 @@
+.country{
+  border: 2px solid blueviolet;
+  margin: 10px;
+  padding: 5px;
+}
+.size{
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+}
+
+.visited{
+  background-color: chartreuse;
+  color: black;
+}
+
+.list{
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.layout{
+  display: grid;
+  grid-template-columns: repeat(3, ifr);
+  border: 3px dotted royalblue;
+}
